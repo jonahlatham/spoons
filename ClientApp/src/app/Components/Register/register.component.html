@@ -1,0 +1,36 @@
+<div class="register-app">
+    <div class="register-container">
+        <form class="example-form register-form">
+            <mat-form-field class="register-form-field" appearance="outline">
+                <mat-label>Username</mat-label>
+                <input matInput placeholder="This is your chance to be Superman">
+                <mat-hint>Create a fun username. <strong> WARNING:</strong> Others will be able to see this.</mat-hint>
+            </mat-form-field>
+            <mat-form-field class="register-form-field" appearance="outline">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="example@email.com">
+                <mat-hint>It must be a real email. Don't worry we won't spam you.</mat-hint>
+            </mat-form-field>
+            <mat-form-field class="register-form-field" appearance="outline">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Password7-15">
+                <mat-hint>Your password must contain:
+                    <div class="register-mat-hint">
+                        <ul>
+                            <li>1 Uppercase Letter</li>
+                            <li>1 Lowercase letter</li>
+                            <li>1 Number</li>
+                        </ul>
+                        <ul class="register-mat-ul">
+                            <li>1 Special character</li>
+                            <li>7-15 characters</li>
+                        </ul>
+                    </div>
+                </mat-hint>
+            </mat-form-field>
+        </form>
+        <button class="register-button" mat-stroked-button>Register</button>
+        <small class="register-small">Already have an account?</small>
+        <a class="register-login" routerLink="/login" routerLinkActive="active">Login</a>
+    </div>
+</div>
