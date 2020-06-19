@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jonahlatham/Documents/learning/HostedProjects/Spoons/Spoons.csproj": {}
+    "/Users/jonahlatham/Documents/learning/Spoons/spoons/Spoons.csproj": {}
   },
   "projects": {
-    "/Users/jonahlatham/Documents/learning/HostedProjects/Spoons/Spoons.csproj": {
+    "/Users/jonahlatham/Documents/learning/Spoons/spoons/Spoons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jonahlatham/Documents/learning/HostedProjects/Spoons/Spoons.csproj",
+        "projectUniqueName": "/Users/jonahlatham/Documents/learning/Spoons/spoons/Spoons.csproj",
         "projectName": "Spoons",
-        "projectPath": "/Users/jonahlatham/Documents/learning/HostedProjects/Spoons/Spoons.csproj",
+        "projectPath": "/Users/jonahlatham/Documents/learning/Spoons/spoons/Spoons.csproj",
         "packagesPath": "/Users/jonahlatham/.nuget/packages/",
-        "outputPath": "/Users/jonahlatham/Documents/learning/HostedProjects/Spoons/obj/",
+        "outputPath": "/Users/jonahlatham/Documents/learning/Spoons/spoons/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jonahlatham/.nuget/NuGet/NuGet.Config"
