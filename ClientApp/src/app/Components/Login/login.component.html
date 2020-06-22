@@ -1,18 +1,18 @@
 <div class="login-app">
     <div class="login-container">
-        <form class="example-form login-form">
+        <form [formGroup]="loginFormGroup" class="example-form login-form">
             <mat-form-field class="login-mat-form-field" appearance="outline">
                 <mat-label>Email</mat-label>
-                <input matInput placeholder="example@email.com">
+                <input formControlName="email" matInput placeholder="example@email.com">
                 <mat-hint>This is the email you registered with.</mat-hint>
             </mat-form-field>
             <mat-form-field class="login-mat-form-field" appearance="outline">
                 <mat-label>Password</mat-label>
-                <input matInput placeholder="Password7-15">
+                <input formControlName="password" matInput placeholder="Password7-15">
                 <mat-hint>Don't tell me you forgot your password...</mat-hint>
             </mat-form-field>
         </form>
-        <button class="login-button" mat-stroked-button>Login</button>
+        <button class="login-button" (click)="Login()" mat-stroked-button>Login</button>
         <small class="login-small">Don't have an account?</small>
         <a class="login-register" routerLink="/register" routerLinkActive="active">Register</a>
     </div>

@@ -2,17 +2,16 @@
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+
 using spoons.Data.Entities;
 
 namespace spoons.Data
 {
     public partial class CoreContext : DbContext
     {
-        public CoreContext ()
-        { }
+        public CoreContext () { }
 
-        public CoreContext (DbContextOptions<CoreContext> options) : base (options)
-        { }
+        public CoreContext (DbContextOptions<CoreContext> options) : base (options) { }
 
         public virtual DbSet<Ingredient> Ingredient { get; set; }
         public virtual DbSet<Measurement> Measurement { get; set; }
