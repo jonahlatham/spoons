@@ -1,8 +1,23 @@
 .top-nav-app {
+    margin: auto;
     display: flex;
-    justify-content: flex-start
+    justify-content: flex-start;
+    width: 95%;
+    background: #cccccc;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0px 20px;
+    padding-top: 15px;
+    margin-top: 7px;
 }
 
 .top-nav-routes {
     margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top-nav-routes:hover {
+    font-weight: bolder;
 }
