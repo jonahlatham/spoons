@@ -1,16 +1,29 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup } from "@angular/forms";
+import { UserService } from "src/app/Services/user.service";
 
 @Component({
-  selector: 'app-addNew',
-  templateUrl: './addNew.component.html',
-  styleUrls: ['./addNew.component.scss']
+  selector: "app-addNew",
+  templateUrl: "./addNew.component.html",
+  styleUrls: ["./addNew.component.scss"]
 })
 export class AddNewComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  addNewFormGroup: FormGroup;
+  constructor(private fb: FormBuilder, private userService: UserService) {
+    this.addNewFormGroup = this.fb.group({
+      title: [""],
+      instructions: [""],
+      quantity: [""],
+      ingredient: [""]
+    });
   }
 
+  formatLabel(value: number) {
+    if (value >= 360) {
+      return Math.round(value / 3600);
+    }
+    return value;
+  }
+
+  ngOnInit() {}
 }

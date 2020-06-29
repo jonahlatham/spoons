@@ -1,6 +1,25 @@
 <div class="top-nav-app">
-    <a class="top-nav-routes" routerLink="/login" routerLinkActive="active">Login</a>
-    <a class="top-nav-routes" routerLink="/register" routerLinkActive="active">Register</a>
-    <a class="top-nav-routes" routerLink="/home" routerLinkActive="active">Home</a>
-    <a class="top-nav-routes" routerLink="/add" routerLinkActive="active">Add New</a>
+
+    <button class="top-nav-hamburger-button" mat-button [matMenuTriggerFor]="menu">
+        <span class="material-icons">
+            menu
+        </span>
+    </button>
+    <mat-menu #menu="matMenu">
+        <a class="top-nav-routes" routerLink="/login" routerLinkActive="active">
+            <button mat-menu-item>Login</button>
+        </a>
+        <a class="top-nav-routes" routerLink="/register" routerLinkActive="active">
+            <button mat-menu-item>Register</button>
+        </a>
+        <a class="top-nav-routes" routerLink="/home" routerLinkActive="active">
+            <button mat-menu-item>Home</button>
+        </a>
+        <a class="top-nav-routes" routerLink="/add" routerLinkActive="active">
+            <button mat-menu-item>Add New</button>
+        </a>
+        <a class="top-nav-routes" routerLink="/allRecipes" routerLinkActive="active">
+            <button mat-menu-item>All Recipes</button>
+        </a>
+    </mat-menu>
 </div>

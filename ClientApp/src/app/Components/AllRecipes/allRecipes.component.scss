@@ -1,0 +1,39 @@
+.all-recipes-app {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.all-recipes-container {
+    margin: auto;
+    margin-top: 5px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.all-recipes-recipe-div {
+    margin: 12px 7px;
+    width: 300px;
+    min-height: 75px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.all-recipes-recipe-div:hover {
+    border-color: black;
+    background: #fafafa;
+}
+
+.all-recipes-recipe {
+    top: 0;
+}
+
+.all-recipes-provider {
+    color: #8b8b8b;
+    bottom: 0;
+}

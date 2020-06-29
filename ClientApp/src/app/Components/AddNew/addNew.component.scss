@@ -1,3 +1,86 @@
 .add-new-app {
     text-align: center;
 }
+
+.add-new-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.add-new-flex-form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+::ng-deep .mat-accent .mat-slider-thumb {
+    background-color: black;
+}
+
+::ng-deep .mat-accent .mat-slider-thumb-label {
+    background-color: black;
+}
+
+::ng-deep .mat-accent .mat-slider-track-fill {
+    background-color: black;
+}
+
+.add-new-slider-hint {
+    color: #BDBDBD;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+.add-new-ingredient-container {
+    display: flex;
+    width: 100%;
+}
+
+.add-new-ingre-form {
+    margin-left: 10px;
+}
+
+.material-icons {
+    color: #BDBDBD;
+    cursor: pointer;
+}
+
+.material-icons:hover {
+    color: black;
+}
+
+.add-new-button-container {
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+// mat-icon-stepper selected color change 
+::ng-deep .mat-step-header .mat-step-icon-selected,
+.mat-step-header .mat-step-icon-state-done,
+.mat-step-header .mat-step-icon-state-edit {
+    background-color: black!important;
+}
+
+//mat-input focused color
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: black!important;
+}
+
+// mat-input carent color
+::ng-deep .mat-input-element {
+    caret-color: black!important;
+}
+
+// mat-label focused style
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+    color: black!important;
+}

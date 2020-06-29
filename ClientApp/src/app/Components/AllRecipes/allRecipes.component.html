@@ -1,0 +1,16 @@
+<div class="all-recipes-app">
+    <form [formGroup]="allRecipesFormGroup" class="example-form register-form">
+        <mat-form-field appearance="legacy">
+            <mat-label>Search a recipe</mat-label>
+            <input autofocus formControlName="search" matInput placeholder="Cheesecake">
+            <mat-hint>Name of recipe</mat-hint>
+        </mat-form-field>
+    </form>
+
+    <div class="all-recipes-container">
+        <div class="all-recipes-recipe-div">
+            <div class="all-recipes-recipe">Name of recipe</div>
+            <sub class="all-recipes-provider">Provided by: "name"</sub>
+        </div>
+    </div>
+</div>
