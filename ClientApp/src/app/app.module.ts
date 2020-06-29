@@ -9,6 +9,7 @@ import { HomeComponent } from "./Components/Home/home.component";
 import { AddNewComponent } from "./Components/AddNew/addNew.component";
 import { TopNavComponent } from "./Components/TopNav/topNav.component";
 import { AllRecipesComponent } from './Components/AllRecipes/allRecipes.component';
+import { RecipeSelectedComponent } from './Components/RecipeSelected/recipeSelected.component';
 
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatFormFieldModule } from "@angular/material/form-field";
@@ -28,7 +29,8 @@ import { HttpClient, HttpClientModule } from "@angular/common/http";
     TopNavComponent,
     HomeComponent,
     AddNewComponent,
-    AllRecipesComponent
+    AllRecipesComponent,
+    RecipeSelectedComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+<div class="recipe-selected-app">
+    <div class="recipe-selected-container">
+        <h1 class="recipe-selected-text">Name of recipe</h1>
+        <div class="recipe-selected-text">These are the instructions so it should be a bit longer. These are the instructions so it should be a bit longer. These are the instructions so it should be a bit longer. These are the instructions so it should be a bit longer. These are the instructions
+            so it should be a bit longer. These are the instructions so it should be a bit longer. These are the instructions so it should be a bit longer.</div>
+        <div class="recipe-selected-text">This makes: number of items</div>
+        <div class="recipe-selected-ingredient-container">
+            <div class="recipe-selected-ingredient">number</div>
+            <div class="recipe-selected-ingredient">measurment</div>
+            <div class="recipe-selected-ingredient">name of what the ingredient is</div>
+        </div>
+    </div>
+
+    <button class="recipe-selected-measurment-button" mat-stroked-button [matMenuTriggerFor]="menu">
+    Measurement
+  </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>1/2 Recipe</button>
+        <button mat-menu-item>Double Recipe</button>
+        <button mat-menu-item>Triple Recipe</button>
+        <button mat-menu-item>Quadruple Recipe</button>
+    </mat-menu>
+</div>

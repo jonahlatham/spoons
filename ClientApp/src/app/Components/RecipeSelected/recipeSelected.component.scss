@@ -1,0 +1,43 @@
+.recipe-selected-app {
+    text-align: center;
+    padding: 10px;
+}
+
+.recipe-selected-container {
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-height: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 0px 15px;
+    padding-top: 15px;
+}
+
+.recipe-selected-text {
+    margin-bottom: 15px;
+    // border-style: solid;
+    // border-width: .5px;
+    // border-radius: 3px;
+}
+
+.recipe-selected-ingredient-container {
+    display: flex;
+}
+
+.recipe-selected-ingredient {
+    border-style: none;
+    border-bottom: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 0px 5px;
+}
+
+.recipe-selected-measurment-button {
+    margin-top: 25px;
+}
