@@ -19,8 +19,8 @@ export class AddNewComponent implements OnInit {
   }
 
   formatLabel(value: number) {
-    if (value >= 360) {
-      return Math.round(value / 3600);
+    if (value >= 480) {
+      return Math.round(value / 4800);
     }
     return value;
   }
